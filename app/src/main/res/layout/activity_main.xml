@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,17 +8,29 @@
     tools:context=".MainActivity"
     android:gravity="center">
 
+    <ImageView
+        android:id="@+id/imageViewDBS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_dbs_bank_seeklogo_com" />
+
     <Button
         android:id="@+id/buttonDBS"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/dbsEng"
+        android:backgroundTint="@color/black"
         android:padding="30dp"
-        android:backgroundTint="@color/black"/>
+        android:text="@string/dbsEng" />
 
     <Space
         android:layout_width="match_parent"
-        android:layout_height="100dp"/>
+        android:layout_height="50dp"/>
+
+    <ImageView
+        android:id="@+id/imageViewOCBC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_ocbc_bank_seeklogo_com" />
 
     <Button
         android:id="@+id/buttonOCBC"
@@ -26,10 +39,20 @@
         android:text="@string/ocbcEng"
         android:padding="30dp"
         android:backgroundTint="@color/black"/>
-    />
+
     <Space
         android:layout_width="match_parent"
-        android:layout_height="100dp"/>
+        android:layout_height="60dp"/>
+
+    <ImageView
+        android:id="@+id/imageViewUOB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_uob_logo" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
 
     <Button
         android:id="@+id/buttonUOB"
