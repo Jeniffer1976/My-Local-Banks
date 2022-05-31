@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/websiteSelection"
+        android:orderInCategory="100"
+        android:title="@string/website" />
+    <item
+        android:id="@+id/contactSelection"
+        android:orderInCategory="101"
+        android:title="@string/contact" />
+    <item
+        android:id="@+id/toggleFavourite"
+        android:orderInCategory="102"
+        android:title="@string/toggleFav" />
+</menu>
+
+
